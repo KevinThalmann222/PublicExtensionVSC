@@ -11,11 +11,11 @@
         New Extension Pack
         - json will be created
         - add "publisher" : "your name"
-    - npm i -g vsce
-    - vsce package
+   - npm i -g vsce
+   - vsce package
         - .vsix will be created
-    - to install all the extension in your file
-    - code --install-extension yourname.vsix
+   - to install all the extension in your file
+   - code --install-extension yourname.vsix
 
 3. create an account on https://dev.azure.com
    - https://dev.azure.com/kevinthalmann222/VSCode
@@ -27,4 +27,7 @@
    - Marketplace -> Manage
    - copy token
 
-4. vsce publish
+4. publisher
+   - vsce login publisher name e.g.
+   - vsce login kevinthalmann222
+   - vsce publish
