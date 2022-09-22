@@ -18,6 +18,7 @@
     - code --install-extension yourname.vsix
 
 3. create an account on https://dev.azure.com
+   - https://dev.azure.com/kevinthalmann222/VSCode
    - personal access token
    - New Token
 
